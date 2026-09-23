@@ -1,0 +1,410 @@
+{
+  "collections": [
+    {
+      "slug": "bear-professional",
+      "name": "Bear Professional",
+      "bookCount": 6,
+      "books": [
+        {
+          "id": "bear-professional--chef-bear",
+          "slug": "chef-bear",
+          "title": "Chef Bear",
+          "collection": "Bear Professional",
+          "collectionSlug": "bear-professional",
+          "cover": "/collections/Bear%20Professional/Chef%20Bear/Chef%20Cover.png",
+          "pages": [
+            "/collections/Bear%20Professional/Chef%20Bear/20260922_104053_0000.png",
+            "/collections/Bear%20Professional/Chef%20Bear/20260922_104252_0000.png",
+            "/collections/Bear%20Professional/Chef%20Bear/23_20260922_103431_0003.png",
+            "/collections/Bear%20Professional/Chef%20Bear/2_20260922_103431_0000.png",
+            "/collections/Bear%20Professional/Chef%20Bear/3_20260922_103431_0001.png"
+          ],
+          "pageCount": 5
+        },
+        {
+          "id": "bear-professional--doctor-bear",
+          "slug": "doctor-bear",
+          "title": "Doctor Bear",
+          "collection": "Bear Professional",
+          "collectionSlug": "bear-professional",
+          "cover": "/collections/Bear%20Professional/Doctor%20Bear/Book%20cover_.png",
+          "pages": [
+            "/collections/Bear%20Professional/Doctor%20Bear/20260922_152207_0000.png",
+            "/collections/Bear%20Professional/Doctor%20Bear/20260922_152306_0000.png",
+            "/collections/Bear%20Professional/Doctor%20Bear/3_20260922_151709_0000.png",
+            "/collections/Bear%20Professional/Doctor%20Bear/7_20260922_151709_0002.png",
+            "/collections/Bear%20Professional/Doctor%20Bear/9_20260922_151709_0003.png"
+          ],
+          "pageCount": 5
+        },
+        {
+          "id": "bear-professional--engineer-bear",
+          "slug": "engineer-bear",
+          "title": "Engineer Bear",
+          "collection": "Bear Professional",
+          "collectionSlug": "bear-professional",
+          "cover": "/collections/Bear%20Professional/Engineer%20Bear/Book%20cover.png",
+          "pages": [
+            "/collections/Bear%20Professional/Engineer%20Bear/11_20260922_111215_0004.png",
+            "/collections/Bear%20Professional/Engineer%20Bear/3_20260922_111214_0000.png",
+            "/collections/Bear%20Professional/Engineer%20Bear/5_20260922_111214_0001.png",
+            "/collections/Bear%20Professional/Engineer%20Bear/7_20260922_111214_0002.png",
+            "/collections/Bear%20Professional/Engineer%20Bear/9_20260922_111214_0003.png"
+          ],
+          "pageCount": 5
+        },
+        {
+          "id": "bear-professional--lawyer-bear",
+          "slug": "lawyer-bear",
+          "title": "Lawyer Bear",
+          "collection": "Bear Professional",
+          "collectionSlug": "bear-professional",
+          "cover": "/collections/Bear%20Professional/Lawyer%20Bear/Book%20cover.png",
+          "pages": [
+            "/collections/Bear%20Professional/Lawyer%20Bear/11_20260922_145428_0004.png",
+            "/collections/Bear%20Professional/Lawyer%20Bear/13_20260922_145428_0005.png",
+            "/collections/Bear%20Professional/Lawyer%20Bear/20260922_150249_0000.png",
+            "/collections/Bear%20Professional/Lawyer%20Bear/20260922_150610_0000.png",
+            "/collections/Bear%20Professional/Lawyer%20Bear/5_20260922_145428_0001.png",
+            "/collections/Bear%20Professional/Lawyer%20Bear/9_20260922_145428_0003.png"
+          ],
+          "pageCount": 6
+        },
+        {
+          "id": "bear-professional--police-bear",
+          "slug": "police-bear",
+          "title": "Police Bear",
+          "collection": "Bear Professional",
+          "collectionSlug": "bear-professional",
+          "cover": "/collections/Bear%20Professional/Police%20Bear/Police%20Cover.png",
+          "pages": [
+            "/collections/Bear%20Professional/Police%20Bear/11_20260922_112641_0004.png",
+            "/collections/Bear%20Professional/Police%20Bear/20260922_113310_0000.png",
+            "/collections/Bear%20Professional/Police%20Bear/5_20260922_112641_0001.png",
+            "/collections/Bear%20Professional/Police%20Bear/7_20260922_112641_0002.png",
+            "/collections/Bear%20Professional/Police%20Bear/Untitled%20design_20260922_143923_0000.png"
+          ],
+          "pageCount": 5
+        },
+        {
+          "id": "bear-professional--teacher-bear",
+          "slug": "teacher-bear",
+          "title": "Teacher Bear",
+          "collection": "Bear Professional",
+          "collectionSlug": "bear-professional",
+          "cover": "/collections/Bear%20Professional/Teacher%20Bear/Teach%20cover%20.png",
+          "pages": [
+            "/collections/Bear%20Professional/Teacher%20Bear/13_20260922_101613_0002.png",
+            "/collections/Bear%20Professional/Teacher%20Bear/17_20260922_101613_0003.png",
+            "/collections/Bear%20Professional/Teacher%20Bear/20260922_102348_0000.png",
+            "/collections/Bear%20Professional/Teacher%20Bear/20260922_102626_0000.png",
+            "/collections/Bear%20Professional/Teacher%20Bear/21_20260922_101613_0004.png",
+            "/collections/Bear%20Professional/Teacher%20Bear/27_20260922_101613_0005.png"
+          ],
+          "pageCount": 6
+        }
+      ]
+    },
+    {
+      "slug": "bold-easy",
+      "name": "Bold & Easy",
+      "bookCount": 10,
+      "books": [
+        {
+          "id": "bold-easy--autumn-hygge",
+          "slug": "autumn-hygge",
+          "title": "Autumn Hygge",
+          "collection": "Bold & Easy",
+          "collectionSlug": "bold-easy",
+          "cover": "/collections/Bold%20%26%20Easy/Autumn%20Hygge/Book%20Cover_.png",
+          "pages": [
+            "/collections/Bold%20%26%20Easy/Autumn%20Hygge/11_20260922_155845_0004.png",
+            "/collections/Bold%20%26%20Easy/Autumn%20Hygge/3_20260922_155845_0000.png",
+            "/collections/Bold%20%26%20Easy/Autumn%20Hygge/5_20260922_155845_0001.png",
+            "/collections/Bold%20%26%20Easy/Autumn%20Hygge/7_20260922_155845_0002.png",
+            "/collections/Bold%20%26%20Easy/Autumn%20Hygge/9_20260922_155845_0003.png"
+          ],
+          "pageCount": 5
+        },
+        {
+          "id": "bold-easy--bubble-bath",
+          "slug": "bubble-bath",
+          "title": "Bubble Bath",
+          "collection": "Bold & Easy",
+          "collectionSlug": "bold-easy",
+          "cover": "/collections/Bold%20%26%20Easy/Bubble%20Bath/Book%20Cover.png",
+          "pages": [
+            "/collections/Bold%20%26%20Easy/Bubble%20Bath/11_20260922_164002_0004.png",
+            "/collections/Bold%20%26%20Easy/Bubble%20Bath/3_20260922_164001_0000.png",
+            "/collections/Bold%20%26%20Easy/Bubble%20Bath/5_20260922_164001_0001.png",
+            "/collections/Bold%20%26%20Easy/Bubble%20Bath/7_20260922_164001_0002.png",
+            "/collections/Bold%20%26%20Easy/Bubble%20Bath/9_20260922_164001_0003.png"
+          ],
+          "pageCount": 5
+        },
+        {
+          "id": "bold-easy--comfy-corner",
+          "slug": "comfy-corner",
+          "title": "Comfy Corner",
+          "collection": "Bold & Easy",
+          "collectionSlug": "bold-easy",
+          "cover": "/collections/Bold%20%26%20Easy/Comfy%20Corner/Book%20Cover.png",
+          "pages": [
+            "/collections/Bold%20%26%20Easy/Comfy%20Corner/11_20260922_195139_0004.png",
+            "/collections/Bold%20%26%20Easy/Comfy%20Corner/3_20260922_195139_0000.png",
+            "/collections/Bold%20%26%20Easy/Comfy%20Corner/5_20260922_195139_0001.png",
+            "/collections/Bold%20%26%20Easy/Comfy%20Corner/7_20260922_195139_0002.png",
+            "/collections/Bold%20%26%20Easy/Comfy%20Corner/9_20260922_195139_0003.png"
+          ],
+          "pageCount": 5
+        },
+        {
+          "id": "bold-easy--comfy-treats",
+          "slug": "comfy-treats",
+          "title": "Comfy Treats",
+          "collection": "Bold & Easy",
+          "collectionSlug": "bold-easy",
+          "cover": "/collections/Bold%20%26%20Easy/Comfy%20Treats/Book%20Cover_.png",
+          "pages": [
+            "/collections/Bold%20%26%20Easy/Comfy%20Treats/11_20260922_205258_0004.png",
+            "/collections/Bold%20%26%20Easy/Comfy%20Treats/3_20260922_205257_0000.png",
+            "/collections/Bold%20%26%20Easy/Comfy%20Treats/5_20260922_205257_0001.png",
+            "/collections/Bold%20%26%20Easy/Comfy%20Treats/7_20260922_205257_0002.png",
+            "/collections/Bold%20%26%20Easy/Comfy%20Treats/9_20260922_205257_0003.png"
+          ],
+          "pageCount": 5
+        },
+        {
+          "id": "bold-easy--cozy-laundry",
+          "slug": "cozy-laundry",
+          "title": "Cozy Laundry",
+          "collection": "Bold & Easy",
+          "collectionSlug": "bold-easy",
+          "cover": "/collections/Bold%20%26%20Easy/Cozy%20Laundry/Book%20Cover.png",
+          "pages": [
+            "/collections/Bold%20%26%20Easy/Cozy%20Laundry/11_20260922_211921_0004.png",
+            "/collections/Bold%20%26%20Easy/Cozy%20Laundry/3_20260922_211920_0000.png",
+            "/collections/Bold%20%26%20Easy/Cozy%20Laundry/5_20260922_211921_0001.png",
+            "/collections/Bold%20%26%20Easy/Cozy%20Laundry/7_20260922_211921_0002.png",
+            "/collections/Bold%20%26%20Easy/Cozy%20Laundry/9_20260922_211921_0003.png"
+          ],
+          "pageCount": 5
+        },
+        {
+          "id": "bold-easy--cozy-travel",
+          "slug": "cozy-travel",
+          "title": "Cozy Travel",
+          "collection": "Bold & Easy",
+          "collectionSlug": "bold-easy",
+          "cover": "/collections/Bold%20%26%20Easy/Cozy%20Travel/Book%20Cover_.png",
+          "pages": [
+            "/collections/Bold%20%26%20Easy/Cozy%20Travel/11_20260922_215520_0004.png",
+            "/collections/Bold%20%26%20Easy/Cozy%20Travel/3_20260922_215520_0000.png",
+            "/collections/Bold%20%26%20Easy/Cozy%20Travel/5_20260922_215520_0001.png",
+            "/collections/Bold%20%26%20Easy/Cozy%20Travel/7_20260922_215520_0002.png",
+            "/collections/Bold%20%26%20Easy/Cozy%20Travel/9_20260922_215520_0003.png"
+          ],
+          "pageCount": 5
+        },
+        {
+          "id": "bold-easy--craft-room",
+          "slug": "craft-room",
+          "title": "Craft Room",
+          "collection": "Bold & Easy",
+          "collectionSlug": "bold-easy",
+          "cover": "/collections/Bold%20%26%20Easy/Craft%20Room/Book%20Cover_.png",
+          "pages": [
+            "/collections/Bold%20%26%20Easy/Craft%20Room/11_20260922_222719_0004.png",
+            "/collections/Bold%20%26%20Easy/Craft%20Room/3_20260922_222719_0000.png",
+            "/collections/Bold%20%26%20Easy/Craft%20Room/5_20260922_222719_0001.png",
+            "/collections/Bold%20%26%20Easy/Craft%20Room/7_20260922_222719_0002.png",
+            "/collections/Bold%20%26%20Easy/Craft%20Room/9_20260922_222719_0003.png"
+          ],
+          "pageCount": 5
+        },
+        {
+          "id": "bold-easy--dream-time",
+          "slug": "dream-time",
+          "title": "Dream Time",
+          "collection": "Bold & Easy",
+          "collectionSlug": "bold-easy",
+          "cover": "/collections/Bold%20%26%20Easy/Dream%20Time/Book%20Cover.png",
+          "pages": [
+            "/collections/Bold%20%26%20Easy/Dream%20Time/11_20260923_021359_0004.png",
+            "/collections/Bold%20%26%20Easy/Dream%20Time/3_20260923_021359_0000.png",
+            "/collections/Bold%20%26%20Easy/Dream%20Time/5_20260923_021359_0001.png",
+            "/collections/Bold%20%26%20Easy/Dream%20Time/7_20260923_021359_0002.png",
+            "/collections/Bold%20%26%20Easy/Dream%20Time/9_20260923_021359_0003.png"
+          ],
+          "pageCount": 5
+        },
+        {
+          "id": "bold-easy--fluffy-pets",
+          "slug": "fluffy-pets",
+          "title": "Fluffy Pets",
+          "collection": "Bold & Easy",
+          "collectionSlug": "bold-easy",
+          "cover": "/collections/Bold%20%26%20Easy/Fluffy%20Pets/Book%20Cover_.png",
+          "pages": [
+            "/collections/Bold%20%26%20Easy/Fluffy%20Pets/11_20260923_022720_0004.png",
+            "/collections/Bold%20%26%20Easy/Fluffy%20Pets/3_20260923_022720_0000.png",
+            "/collections/Bold%20%26%20Easy/Fluffy%20Pets/5_20260923_022720_0001.png",
+            "/collections/Bold%20%26%20Easy/Fluffy%20Pets/7_20260923_022720_0002.png",
+            "/collections/Bold%20%26%20Easy/Fluffy%20Pets/9_20260923_022720_0003.png"
+          ],
+          "pageCount": 5
+        },
+        {
+          "id": "bold-easy--outdoor-yard",
+          "slug": "outdoor-yard",
+          "title": "Outdoor Yard",
+          "collection": "Bold & Easy",
+          "collectionSlug": "bold-easy",
+          "cover": "/collections/Bold%20%26%20Easy/Outdoor%20Yard/Book%20Cover.png",
+          "pages": [
+            "/collections/Bold%20%26%20Easy/Outdoor%20Yard/11_20260923_024131_0004.png",
+            "/collections/Bold%20%26%20Easy/Outdoor%20Yard/3_20260923_024130_0000.png",
+            "/collections/Bold%20%26%20Easy/Outdoor%20Yard/5_20260923_024130_0001.png",
+            "/collections/Bold%20%26%20Easy/Outdoor%20Yard/7_20260923_024131_0002.png",
+            "/collections/Bold%20%26%20Easy/Outdoor%20Yard/9_20260923_024131_0003.png"
+          ],
+          "pageCount": 5
+        }
+      ]
+    },
+    {
+      "slug": "comfy-seasons",
+      "name": "Comfy Seasons",
+      "bookCount": 8,
+      "books": [
+        {
+          "id": "comfy-seasons--cozy-autumn",
+          "slug": "cozy-autumn",
+          "title": "Cozy Autumn",
+          "collection": "Comfy Seasons",
+          "collectionSlug": "comfy-seasons",
+          "cover": "/collections/Comfy%20Seasons/Cozy%20Autumn/Book%20Cover_.png",
+          "pages": [
+            "/collections/Comfy%20Seasons/Cozy%20Autumn/11_20260923_170956_0004.png",
+            "/collections/Comfy%20Seasons/Cozy%20Autumn/3_20260923_170955_0000.png",
+            "/collections/Comfy%20Seasons/Cozy%20Autumn/5_20260923_170955_0001.png",
+            "/collections/Comfy%20Seasons/Cozy%20Autumn/7_20260923_170955_0002.png",
+            "/collections/Comfy%20Seasons/Cozy%20Autumn/9_20260923_170956_0003.png"
+          ],
+          "pageCount": 5
+        },
+        {
+          "id": "comfy-seasons--cozy-christmas",
+          "slug": "cozy-christmas",
+          "title": "Cozy Christmas",
+          "collection": "Comfy Seasons",
+          "collectionSlug": "comfy-seasons",
+          "cover": "/collections/Comfy%20Seasons/Cozy%20Christmas/Book%20Cover_.png",
+          "pages": [
+            "/collections/Comfy%20Seasons/Cozy%20Christmas/11_20260923_165353_0004.png",
+            "/collections/Comfy%20Seasons/Cozy%20Christmas/3_20260923_165353_0000.png",
+            "/collections/Comfy%20Seasons/Cozy%20Christmas/5_20260923_165353_0001.png",
+            "/collections/Comfy%20Seasons/Cozy%20Christmas/7_20260923_165353_0002.png",
+            "/collections/Comfy%20Seasons/Cozy%20Christmas/9_20260923_165353_0003.png"
+          ],
+          "pageCount": 5
+        },
+        {
+          "id": "comfy-seasons--cozy-easter",
+          "slug": "cozy-easter",
+          "title": "Cozy Easter",
+          "collection": "Comfy Seasons",
+          "collectionSlug": "comfy-seasons",
+          "cover": "/collections/Comfy%20Seasons/Cozy%20Easter/Book%20Cover_.png",
+          "pages": [
+            "/collections/Comfy%20Seasons/Cozy%20Easter/11_20260923_164306_0004.png",
+            "/collections/Comfy%20Seasons/Cozy%20Easter/3_20260923_164305_0000.png",
+            "/collections/Comfy%20Seasons/Cozy%20Easter/5_20260923_164305_0001.png",
+            "/collections/Comfy%20Seasons/Cozy%20Easter/7_20260923_164305_0002.png",
+            "/collections/Comfy%20Seasons/Cozy%20Easter/9_20260923_164305_0003.png"
+          ],
+          "pageCount": 5
+        },
+        {
+          "id": "comfy-seasons--cozy-halloween",
+          "slug": "cozy-halloween",
+          "title": "Cozy Halloween",
+          "collection": "Comfy Seasons",
+          "collectionSlug": "comfy-seasons",
+          "cover": "/collections/Comfy%20Seasons/Cozy%20Halloween/Book%20Cover_.png",
+          "pages": [
+            "/collections/Comfy%20Seasons/Cozy%20Halloween/11_20260923_163041_0004.png",
+            "/collections/Comfy%20Seasons/Cozy%20Halloween/3_20260923_163041_0000.png",
+            "/collections/Comfy%20Seasons/Cozy%20Halloween/5_20260923_163041_0001.png",
+            "/collections/Comfy%20Seasons/Cozy%20Halloween/7_20260923_163041_0002.png",
+            "/collections/Comfy%20Seasons/Cozy%20Halloween/9_20260923_163041_0003.png"
+          ],
+          "pageCount": 5
+        },
+        {
+          "id": "comfy-seasons--cozy-spring",
+          "slug": "cozy-spring",
+          "title": "Cozy Spring",
+          "collection": "Comfy Seasons",
+          "collectionSlug": "comfy-seasons",
+          "cover": "/collections/Comfy%20Seasons/Cozy%20Spring/Book%20Cover_.png",
+          "pages": [
+            "/collections/Comfy%20Seasons/Cozy%20Spring/11_20260923_155825_0004.png",
+            "/collections/Comfy%20Seasons/Cozy%20Spring/3_20260923_155825_0000.png",
+            "/collections/Comfy%20Seasons/Cozy%20Spring/5_20260923_155825_0001.png",
+            "/collections/Comfy%20Seasons/Cozy%20Spring/7_20260923_155825_0002.png",
+            "/collections/Comfy%20Seasons/Cozy%20Spring/9_20260923_155825_0003.png"
+          ],
+          "pageCount": 5
+        },
+        {
+          "id": "comfy-seasons--cozy-summer",
+          "slug": "cozy-summer",
+          "title": "Cozy Summer",
+          "collection": "Comfy Seasons",
+          "collectionSlug": "comfy-seasons",
+          "cover": "/collections/Comfy%20Seasons/Cozy%20Summer/Book%20Cover_.png",
+          "pages": [
+            "/collections/Comfy%20Seasons/Cozy%20Summer/11_20260923_154657_0004.png",
+            "/collections/Comfy%20Seasons/Cozy%20Summer/3_20260923_154657_0000.png",
+            "/collections/Comfy%20Seasons/Cozy%20Summer/5_20260923_154657_0001.png",
+            "/collections/Comfy%20Seasons/Cozy%20Summer/7_20260923_154657_0002.png",
+            "/collections/Comfy%20Seasons/Cozy%20Summer/9_20260923_154657_0003.png"
+          ],
+          "pageCount": 5
+        },
+        {
+          "id": "comfy-seasons--cozy-thanksgiving",
+          "slug": "cozy-thanksgiving",
+          "title": "Cozy Thanksgiving",
+          "collection": "Comfy Seasons",
+          "collectionSlug": "comfy-seasons",
+          "cover": "/collections/Comfy%20Seasons/Cozy%20Thanksgiving/Book%20Cover_.png",
+          "pages": [
+            "/collections/Comfy%20Seasons/Cozy%20Thanksgiving/11_20260923_132107_0004.png",
+            "/collections/Comfy%20Seasons/Cozy%20Thanksgiving/3_20260923_132107_0000.png",
+            "/collections/Comfy%20Seasons/Cozy%20Thanksgiving/5_20260923_132107_0001.png",
+            "/collections/Comfy%20Seasons/Cozy%20Thanksgiving/7_20260923_132107_0002.png",
+            "/collections/Comfy%20Seasons/Cozy%20Thanksgiving/9_20260923_132107_0003.png"
+          ],
+          "pageCount": 5
+        },
+        {
+          "id": "comfy-seasons--cozy-winter",
+          "slug": "cozy-winter",
+          "title": "Cozy Winter",
+          "collection": "Comfy Seasons",
+          "collectionSlug": "comfy-seasons",
+          "cover": "/collections/Comfy%20Seasons/Cozy%20Winter/Book%20Cover_.png",
+          "pages": [
+            "/collections/Comfy%20Seasons/Cozy%20Winter/11_20260923_131031_0003.png",
+            "/collections/Comfy%20Seasons/Cozy%20Winter/3_20260923_131031_0000.png",
+            "/collections/Comfy%20Seasons/Cozy%20Winter/5_20260923_131031_0001.png",
+            "/collections/Comfy%20Seasons/Cozy%20Winter/7_20260923_131031_0002.png"
+          ],
+          "pageCount": 4
+        }
+      ]
+    }
+  ]
+}
