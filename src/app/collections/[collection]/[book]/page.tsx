@@ -10,14 +10,16 @@ export function generateStaticParams() {
   );
 }
 
-export function generateMetadata({ params }: { params: { collection: string; book: string } }) {
-  const b = getBook(params.collection, params.book);
+export async function generateMetadata({ params }: { params: Promise<{ collection: string; book: string }> }) {
+  const { collection, book } = await params;
+  const b = getBook(collection, book);
   return { title: b ? `${b.title} — Cozy Colouring` : "Book" };
 }
 
-export default function BookPage({ params }: { params: { collection: string; book: string } }) {
-  const c = getCollection(params.collection);
-  const b = getBook(params.collection, params.book);
+export default async function BookPage({ params }: { params: Promise<{ collection: string; book: string }> }) {
+  const { collection, book } = await params;
+  const c = getCollection(collection);
+  const b = getBook(collection, book);
   if (!c || !b) notFound();
 
   const related = c.books.filter((x) => x.slug !== b.slug).slice(0, 4);

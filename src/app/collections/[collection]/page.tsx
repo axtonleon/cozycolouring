@@ -14,13 +14,15 @@ export function generateStaticParams() {
   return collections.map((c) => ({ collection: c.slug }));
 }
 
-export function generateMetadata({ params }: { params: { collection: string } }) {
-  const c = getCollection(params.collection);
+export async function generateMetadata({ params }: { params: Promise<{ collection: string }> }) {
+  const { collection } = await params;
+  const c = getCollection(collection);
   return { title: c ? `${c.name} — Cozy Colouring` : "Collection" };
 }
 
-export default function CollectionPage({ params }: { params: { collection: string } }) {
-  const c = getCollection(params.collection);
+export default async function CollectionPage({ params }: { params: Promise<{ collection: string }> }) {
+  const { collection } = await params;
+  const c = getCollection(collection);
   if (!c) notFound();
 
   const bg = bandBg[c.slug] ?? "#F6ECFF";
