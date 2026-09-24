@@ -52,20 +52,17 @@ export function GalleryGrid({ collections }: { collections: Collection[] }) {
       <div className="sticky top-[68px] z-30 -mx-6 mb-8 border-b border-ink-strong/10 bg-bg/90 px-6 py-4 backdrop-blur">
         <div className="flex flex-wrap gap-2">
           <FilterChip active={filter === "all"} onClick={() => setFilter("all")}>
-            All · {items.length}
+            All pages
           </FilterChip>
-          {collections.map((c) => {
-            const count = items.filter((i) => i.collectionSlug === c.slug).length;
-            return (
-              <FilterChip
-                key={c.slug}
-                active={filter === c.slug}
-                onClick={() => setFilter(c.slug)}
-              >
-                {c.name} · {count}
-              </FilterChip>
-            );
-          })}
+          {collections.map((c) => (
+            <FilterChip
+              key={c.slug}
+              active={filter === c.slug}
+              onClick={() => setFilter(c.slug)}
+            >
+              {c.name}
+            </FilterChip>
+          ))}
         </div>
       </div>
 

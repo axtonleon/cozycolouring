@@ -63,7 +63,7 @@ export default async function BookPage({ params }: { params: Promise<{ collectio
 
             <div className="mt-3 flex flex-wrap items-center gap-2">
               <span className="rounded-pill bg-[#FFE27A] px-3 py-1 text-xs font-extrabold uppercase tracking-wider text-ink-strong">Ages 8+</span>
-              <span className="rounded-pill bg-lavender px-3 py-1 text-xs font-extrabold uppercase tracking-wider text-ink-strong">50+ pages</span>
+              <span className="rounded-pill bg-lavender px-3 py-1 text-xs font-extrabold uppercase tracking-wider text-ink-strong">Bold &amp; Easy</span>
               <span className="rounded-pill bg-[#EAF6D8] px-3 py-1 text-xs font-extrabold uppercase tracking-wider text-ink-strong">Original</span>
             </div>
 
@@ -73,11 +73,11 @@ export default async function BookPage({ params }: { params: Promise<{ collectio
             </div>
 
             <p className="mt-6 text-lg text-ink">
-              50+ unique {b.title} pages ready for you. Bold, thick outlines. Original artwork drawn from scratch. Made for slow, stress-free coloring.
+              Unique {b.title} pages ready for you. Bold, thick outlines. Original artwork drawn from scratch. Made for slow, stress-free coloring.
             </p>
 
             <ul className="mt-6 space-y-2 text-ink">
-              <li className="flex items-center gap-3"><Dot /> 50+ unique {b.title} pages</li>
+              <li className="flex items-center gap-3"><Dot /> Unique {b.title} pages</li>
               <li className="flex items-center gap-3"><Dot /> Thick, bold outlines</li>
               <li className="flex items-center gap-3"><Dot /> Ideal for markers, pens &amp; pencils</li>
               <li className="flex items-center gap-3"><Dot /> Single-sided printing</li>
@@ -102,7 +102,7 @@ export default async function BookPage({ params }: { params: Promise<{ collectio
                 <p className="text-sm font-bold uppercase tracking-widest text-muted">Peek inside</p>
                 <h2 className="mt-2 text-3xl font-extrabold text-ink-strong md:text-4xl">Sample pages</h2>
               </div>
-              <span className="text-sm text-muted">{b.pageCount} preview{b.pageCount === 1 ? "" : "s"}</span>
+              <span className="text-sm text-muted">Tap any page to see it larger</span>
             </div>
             <div className="grid grid-cols-2 gap-4 md:grid-cols-4 lg:grid-cols-5">
               {b.pages.map((src, i) => (

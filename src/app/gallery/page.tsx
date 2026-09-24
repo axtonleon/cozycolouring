@@ -5,11 +5,6 @@ import { collections } from "@/lib/books";
 export const metadata = { title: "Gallery — Cozy Colouring" };
 
 export default function GalleryPage() {
-  const totalPages = collections.reduce(
-    (n, c) => n + c.books.reduce((m, b) => m + b.pages.length, 0),
-    0
-  );
-
   return (
     <PageShell>
       <section className="relative overflow-hidden border-b-2 border-ink-strong bg-lavender">
@@ -19,7 +14,7 @@ export default function GalleryPage() {
             Every page. All in one place.
           </h1>
           <p className="mx-auto mt-4 max-w-xl text-lg text-ink">
-            Browse {totalPages} coloring pages from every book. Tap any page for a closer look.
+            Browse coloring pages from across the collections. Tap any page for a closer look.
           </p>
         </div>
       </section>

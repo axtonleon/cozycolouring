@@ -49,7 +49,7 @@ export function Hero() {
               <span className="h-8 w-8 rounded-full border-2 border-white bg-[#FFE27A]" />
               <span className="h-8 w-8 rounded-full border-2 border-white bg-[#A8E6CF]" />
             </div>
-            <span>Loved by <b className="text-ink">10,000+</b> cozy colorers</span>
+            <span>Made for slow, cozy afternoons</span>
           </div>
         </div>
 

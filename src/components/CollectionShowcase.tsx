@@ -41,7 +41,7 @@ export function CollectionShowcase() {
                 <span
                   className="rounded-pill bg-white px-3 py-1 text-xs font-bold uppercase tracking-wider text-ink-strong"
                 >
-                  {c.bookCount} books
+                  Collection
                 </span>
                 <span className="text-2xl transition group-hover:translate-x-1">→</span>
               </div>

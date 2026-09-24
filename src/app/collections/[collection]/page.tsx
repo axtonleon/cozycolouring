@@ -40,7 +40,7 @@ export default async function CollectionPage({ params }: { params: Promise<{ col
               <h1 className="mt-2 text-5xl font-extrabold text-ink-strong md:text-6xl">{c.name}</h1>
             </div>
             <span className="rounded-pill border-2 border-ink-strong bg-white px-4 py-2 text-sm font-extrabold text-ink-strong">
-              {c.bookCount} books
+              Cozy Collection
             </span>
           </div>
         </div>
@@ -67,7 +67,7 @@ export default async function CollectionPage({ params }: { params: Promise<{ col
               </div>
               <h2 className="mt-3 text-lg font-extrabold text-ink">{b.title}</h2>
               <p className="text-sm text-muted">
-                {b.pageCount > 0 ? `${b.pageCount} preview pages` : "Coming soon"}
+                {b.pageCount > 0 ? "Preview pages inside" : "Coming soon"}
               </p>
             </Link>
           ))}

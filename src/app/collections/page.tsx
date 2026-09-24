@@ -33,7 +33,7 @@ export default function CollectionsIndex() {
                 style={{ background: p.bg }}
               >
                 <span className="rounded-pill bg-white px-3 py-1 text-xs font-bold uppercase tracking-wider text-ink-strong">
-                  {c.bookCount} books
+                  Collection
                 </span>
                 <h2 className="mt-6 text-3xl font-extrabold text-ink-strong">{c.name}</h2>
                 <div className="relative mt-8 flex h-52 items-end justify-center">

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { PageShell } from "@/components/PageShell";
-import { collections, allBooks } from "@/lib/books";
+import { collections } from "@/lib/books";
 
 export const metadata = { title: "All books — Cozy Colouring" };
 
@@ -12,7 +12,7 @@ export default function BooksIndex() {
         <p className="text-sm font-bold uppercase tracking-widest text-muted">The whole library</p>
         <h1 className="mt-2 text-5xl font-extrabold text-ink-strong">All books</h1>
         <p className="mt-3 max-w-xl text-lg text-ink">
-          {allBooks.length} hand-drawn coloring books across {collections.length} cozy collections.
+          Unique colouring books across different cozy collections.
         </p>
 
         <div className="mt-6 flex flex-wrap gap-2">
@@ -22,7 +22,7 @@ export default function BooksIndex() {
               href={`#${c.slug}`}
               className="rounded-pill border-2 border-ink-strong bg-white px-4 py-2 text-sm font-bold text-ink-strong hover:bg-lavender"
             >
-              {c.name} · {c.bookCount}
+              {c.name}
             </a>
           ))}
         </div>
