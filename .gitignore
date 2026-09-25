@@ -32,3 +32,7 @@ Thumbs.db
 
 # Source asset staging area — served copy lives in public/collections/
 /Collections/
+
+.vercel/
+tsconfig.tsbuildinfo
+next-env.d.ts

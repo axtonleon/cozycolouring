@@ -65,7 +65,7 @@ export function PeekInside() {
         </div>
 
         <p className="mx-auto mt-10 max-w-lg text-center text-ink">
-          Print at home or color digitally. Line-art thick enough for pencils, markers, and messy fun.
+          Line-art thick enough for pencils, markers, and messy fun.
         </p>
       </div>
     </section>

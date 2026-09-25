@@ -3,6 +3,8 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { PageShell } from "@/components/PageShell";
 import { collections, getBook, getCollection } from "@/lib/books";
+import { PRICE_NGN, formatNaira } from "@/lib/pricing";
+import { BuyForm } from "@/components/BuyForm";
 
 export function generateStaticParams() {
   return collections.flatMap((c) =>
@@ -68,7 +70,7 @@ export default async function BookPage({ params }: { params: Promise<{ collectio
             </div>
 
             <div className="mt-5 flex items-baseline gap-3">
-              <span className="text-3xl font-extrabold text-ink-strong">₦15,000</span>
+              <span className="text-3xl font-extrabold text-ink-strong">{formatNaira(PRICE_NGN)}</span>
               <span className="text-sm text-muted">free shipping in Lagos</span>
             </div>
 
@@ -86,9 +88,7 @@ export default async function BookPage({ params }: { params: Promise<{ collectio
             </ul>
 
             <div className="mt-8">
-              <button className="rounded-pill bg-ink-strong px-7 py-3.5 text-base font-bold text-white shadow-card transition hover:-translate-y-0.5 hover:shadow-hover">
-                Add to cart — ₦15,000
-              </button>
+              <BuyForm collectionSlug={c.slug} bookSlug={b.slug} />
             </div>
           </div>
         </div>

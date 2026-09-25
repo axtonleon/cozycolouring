@@ -14,7 +14,7 @@ export function Newsletter() {
             One free page.<br />Every month.
           </h2>
           <p className="mt-4 text-lg text-ink">
-            Join the mailing list and we'll send a brand-new coloring page straight to your inbox. No spam. Just calm.
+            Join the mailing list and we'll send updates on new books straight to your inbox. No spam. Just calm.
           </p>
           <form className="mt-6 flex flex-col gap-3 sm:flex-row">
             <input
