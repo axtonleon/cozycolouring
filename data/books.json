@@ -43,7 +43,7 @@
           "title": "Engineer Bear",
           "collection": "Bear Professional",
           "collectionSlug": "bear-professional",
-          "cover": "/collections/Bear%20Professional/Engineer%20Bear/Book%20cover.png",
+          "cover": "/collections/Bear%20Professional/Engineer%20Bear/Book%20Cover_.png",
           "pages": [
             "/collections/Bear%20Professional/Engineer%20Bear/11_20260922_111215_0004.png",
             "/collections/Bear%20Professional/Engineer%20Bear/3_20260922_111214_0000.png",
@@ -59,7 +59,7 @@
           "title": "Lawyer Bear",
           "collection": "Bear Professional",
           "collectionSlug": "bear-professional",
-          "cover": "/collections/Bear%20Professional/Lawyer%20Bear/Book%20cover.png",
+          "cover": "/collections/Bear%20Professional/Lawyer%20Bear/Book%20Cover_.png",
           "pages": [
             "/collections/Bear%20Professional/Lawyer%20Bear/11_20260922_145428_0004.png",
             "/collections/Bear%20Professional/Lawyer%20Bear/13_20260922_145428_0005.png",
@@ -92,7 +92,7 @@
           "title": "Teacher Bear",
           "collection": "Bear Professional",
           "collectionSlug": "bear-professional",
-          "cover": "/collections/Bear%20Professional/Teacher%20Bear/Teach%20cover%20.png",
+          "cover": "/collections/Bear%20Professional/Teacher%20Bear/Teach%20Bear%20cover.png",
           "pages": [
             "/collections/Bear%20Professional/Teacher%20Bear/13_20260922_101613_0002.png",
             "/collections/Bear%20Professional/Teacher%20Bear/17_20260922_101613_0003.png",
@@ -164,7 +164,7 @@
           "title": "Comfy Treats",
           "collection": "Bold & Easy",
           "collectionSlug": "bold-easy",
-          "cover": "/collections/Bold%20%26%20Easy/Comfy%20Treats/Book%20Cover_.png",
+          "cover": "/collections/Bold%20%26%20Easy/Comfy%20Treats/Book%20Cover.png",
           "pages": [
             "/collections/Bold%20%26%20Easy/Comfy%20Treats/11_20260922_205258_0004.png",
             "/collections/Bold%20%26%20Easy/Comfy%20Treats/3_20260922_205257_0000.png",
@@ -196,7 +196,7 @@
           "title": "Cozy Travel",
           "collection": "Bold & Easy",
           "collectionSlug": "bold-easy",
-          "cover": "/collections/Bold%20%26%20Easy/Cozy%20Travel/Book%20Cover_.png",
+          "cover": "/collections/Bold%20%26%20Easy/Cozy%20Travel/Book%20Cover.png",
           "pages": [
             "/collections/Bold%20%26%20Easy/Cozy%20Travel/11_20260922_215520_0004.png",
             "/collections/Bold%20%26%20Easy/Cozy%20Travel/3_20260922_215520_0000.png",
@@ -212,7 +212,7 @@
           "title": "Craft Room",
           "collection": "Bold & Easy",
           "collectionSlug": "bold-easy",
-          "cover": "/collections/Bold%20%26%20Easy/Craft%20Room/Book%20Cover_.png",
+          "cover": "/collections/Bold%20%26%20Easy/Craft%20Room/Book%20Cover.png",
           "pages": [
             "/collections/Bold%20%26%20Easy/Craft%20Room/11_20260922_222719_0004.png",
             "/collections/Bold%20%26%20Easy/Craft%20Room/3_20260922_222719_0000.png",
@@ -244,7 +244,7 @@
           "title": "Fluffy Pets",
           "collection": "Bold & Easy",
           "collectionSlug": "bold-easy",
-          "cover": "/collections/Bold%20%26%20Easy/Fluffy%20Pets/Book%20Cover_.png",
+          "cover": "/collections/Bold%20%26%20Easy/Fluffy%20Pets/Book%20Cover.png",
           "pages": [
             "/collections/Bold%20%26%20Easy/Fluffy%20Pets/11_20260923_022720_0004.png",
             "/collections/Bold%20%26%20Easy/Fluffy%20Pets/3_20260923_022720_0000.png",
@@ -283,7 +283,7 @@
           "title": "Cozy Autumn",
           "collection": "Comfy Seasons",
           "collectionSlug": "comfy-seasons",
-          "cover": "/collections/Comfy%20Seasons/Cozy%20Autumn/Book%20Cover_.png",
+          "cover": "/collections/Comfy%20Seasons/Cozy%20Autumn/Book%20Cover.png",
           "pages": [
             "/collections/Comfy%20Seasons/Cozy%20Autumn/11_20260923_170956_0004.png",
             "/collections/Comfy%20Seasons/Cozy%20Autumn/3_20260923_170955_0000.png",
@@ -299,7 +299,7 @@
           "title": "Cozy Christmas",
           "collection": "Comfy Seasons",
           "collectionSlug": "comfy-seasons",
-          "cover": "/collections/Comfy%20Seasons/Cozy%20Christmas/Book%20Cover_.png",
+          "cover": "/collections/Comfy%20Seasons/Cozy%20Christmas/Book%20Cover.png",
           "pages": [
             "/collections/Comfy%20Seasons/Cozy%20Christmas/11_20260923_165353_0004.png",
             "/collections/Comfy%20Seasons/Cozy%20Christmas/3_20260923_165353_0000.png",
@@ -315,7 +315,7 @@
           "title": "Cozy Easter",
           "collection": "Comfy Seasons",
           "collectionSlug": "comfy-seasons",
-          "cover": "/collections/Comfy%20Seasons/Cozy%20Easter/Book%20Cover_.png",
+          "cover": "/collections/Comfy%20Seasons/Cozy%20Easter/Book%20Cover.png",
           "pages": [
             "/collections/Comfy%20Seasons/Cozy%20Easter/11_20260923_164306_0004.png",
             "/collections/Comfy%20Seasons/Cozy%20Easter/3_20260923_164305_0000.png",
@@ -331,7 +331,7 @@
           "title": "Cozy Halloween",
           "collection": "Comfy Seasons",
           "collectionSlug": "comfy-seasons",
-          "cover": "/collections/Comfy%20Seasons/Cozy%20Halloween/Book%20Cover_.png",
+          "cover": "/collections/Comfy%20Seasons/Cozy%20Halloween/Book%20Cover.png",
           "pages": [
             "/collections/Comfy%20Seasons/Cozy%20Halloween/11_20260923_163041_0004.png",
             "/collections/Comfy%20Seasons/Cozy%20Halloween/3_20260923_163041_0000.png",
@@ -347,7 +347,7 @@
           "title": "Cozy Spring",
           "collection": "Comfy Seasons",
           "collectionSlug": "comfy-seasons",
-          "cover": "/collections/Comfy%20Seasons/Cozy%20Spring/Book%20Cover_.png",
+          "cover": "/collections/Comfy%20Seasons/Cozy%20Spring/Book%20Cover.png",
           "pages": [
             "/collections/Comfy%20Seasons/Cozy%20Spring/11_20260923_155825_0004.png",
             "/collections/Comfy%20Seasons/Cozy%20Spring/3_20260923_155825_0000.png",
@@ -363,7 +363,7 @@
           "title": "Cozy Summer",
           "collection": "Comfy Seasons",
           "collectionSlug": "comfy-seasons",
-          "cover": "/collections/Comfy%20Seasons/Cozy%20Summer/Book%20Cover_.png",
+          "cover": "/collections/Comfy%20Seasons/Cozy%20Summer/Book%20Cover.png",
           "pages": [
             "/collections/Comfy%20Seasons/Cozy%20Summer/11_20260923_154657_0004.png",
             "/collections/Comfy%20Seasons/Cozy%20Summer/3_20260923_154657_0000.png",
@@ -379,7 +379,7 @@
           "title": "Cozy Thanksgiving",
           "collection": "Comfy Seasons",
           "collectionSlug": "comfy-seasons",
-          "cover": "/collections/Comfy%20Seasons/Cozy%20Thanksgiving/Book%20Cover_.png",
+          "cover": "/collections/Comfy%20Seasons/Cozy%20Thanksgiving/Book%20Cover.png",
           "pages": [
             "/collections/Comfy%20Seasons/Cozy%20Thanksgiving/11_20260923_132107_0004.png",
             "/collections/Comfy%20Seasons/Cozy%20Thanksgiving/3_20260923_132107_0000.png",
@@ -395,7 +395,7 @@
           "title": "Cozy Winter",
           "collection": "Comfy Seasons",
           "collectionSlug": "comfy-seasons",
-          "cover": "/collections/Comfy%20Seasons/Cozy%20Winter/Book%20Cover_.png",
+          "cover": "/collections/Comfy%20Seasons/Cozy%20Winter/Book%20Cover.png",
           "pages": [
             "/collections/Comfy%20Seasons/Cozy%20Winter/11_20260923_131031_0003.png",
             "/collections/Comfy%20Seasons/Cozy%20Winter/3_20260923_131031_0000.png",
