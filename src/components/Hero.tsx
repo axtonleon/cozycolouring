@@ -14,7 +14,7 @@ export function Hero() {
             New drop · Bear Professional
           </span>
           <h1 className="mt-5 text-5xl font-extrabold leading-[1.05] text-ink-strong md:text-6xl lg:text-7xl">
-            Color your{" "}
+            Colour your{" "}
             <span className="relative inline-block">
               <span className="relative z-10">cozy</span>
               <span
@@ -22,11 +22,11 @@ export function Hero() {
                 className="absolute inset-x-0 bottom-1 -z-0 h-4 bg-[#FFE27A] md:h-5"
                 style={{ borderRadius: "999px" }}
               />
-            </span>{" "}
-            away.
+            </span>
+            .
           </h1>
           <p className="mt-6 max-w-md text-lg text-ink">
-            Hand-drawn coloring books for calm moments, slow evenings, and the little pockets of comfort in between.
+            Original colouring books for calm moments, slow evenings, and the little pockets of comfort in between.
           </p>
           <div className="mt-8 flex flex-wrap items-center gap-3">
             <Link

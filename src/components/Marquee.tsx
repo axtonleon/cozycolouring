@@ -1,9 +1,9 @@
 const items = [
-  "hand-drawn",
+  "original",
   "cozy vibes",
   "print + digital",
   "made with love",
-  "stress-free coloring",
+  "stress-free colouring",
   "cute animals",
   "warm palettes",
   "slow evenings",

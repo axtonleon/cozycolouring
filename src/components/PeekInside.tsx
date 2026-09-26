@@ -13,7 +13,7 @@ export function PeekInside() {
         <div className="mb-10 text-center">
           <p className="text-sm font-bold uppercase tracking-widest text-muted">Peek inside</p>
           <h2 className="mt-2 text-4xl font-extrabold text-ink-strong md:text-5xl">
-            Every page starts blank.<br />You bring the color.
+            Every page starts blank.<br />You bring the colour.
           </h2>
         </div>
 
@@ -24,7 +24,7 @@ export function PeekInside() {
                 <div className="overflow-hidden rounded-xl border-2 border-ink-strong bg-white shadow-card">
                   <Image
                     src={src}
-                    alt="Coloring page preview"
+                    alt="Colouring page preview"
                     width={220}
                     height={280}
                     className="h-52 w-40 object-cover"
@@ -51,7 +51,7 @@ export function PeekInside() {
                     <div className="overflow-hidden rounded-xl border-2 border-ink-strong bg-white shadow-hover">
                       <Image
                         src={src}
-                        alt="Coloring page preview"
+                        alt="Colouring page preview"
                         width={220}
                         height={280}
                         className="h-56 w-44 object-cover"

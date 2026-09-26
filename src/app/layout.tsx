@@ -9,9 +9,9 @@ const nunito = Nunito({
 });
 
 export const metadata: Metadata = {
-  title: "Cozy Colouring — Comfy books to color, relax, and unwind",
+  title: "Cozy Colouring — Comfy books to colour, relax, and unwind",
   description:
-    "Hand-drawn coloring books designed to bring calm, warmth, and creativity into your day.",
+    "Original colouring books designed to bring calm, warmth, and creativity into your day.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

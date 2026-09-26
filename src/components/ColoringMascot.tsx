@@ -18,7 +18,7 @@ export function ColoringMascot() {
           key={key}
           viewBox="0 0 360 380"
           role="img"
-          aria-label="A chubby frog holding a tulip, being colored in"
+          aria-label="A chubby frog holding a tulip, being coloured in"
           className="mx-auto block h-auto w-full max-w-md"
         >
           <defs>
@@ -49,7 +49,7 @@ export function ColoringMascot() {
             </mask>
           </defs>
 
-          {/* Color layer — masked reveal */}
+          {/* Colour layer — masked reveal */}
           <g mask="url(#paintReveal)">
             {/* body */}
             <ellipse cx="180" cy="230" rx="130" ry="120" fill="#8FD48A" />
@@ -106,7 +106,7 @@ export function ColoringMascot() {
             onClick={() => setKey((k) => k + 1)}
             className="rounded-pill border-2 border-ink-strong bg-[#FFE27A] px-4 py-2 text-sm font-extrabold text-ink-strong transition hover:-translate-y-0.5 hover:shadow-card"
           >
-            Color again
+            Colour again
           </button>
         </div>
       </div>

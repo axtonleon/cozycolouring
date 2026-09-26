@@ -6,10 +6,10 @@ export function Footer() {
     <footer className="relative bg-lavender">
       <div className="mx-auto max-w-container px-6 pt-20 pb-10 text-center">
         <p className="text-4xl font-extrabold text-ink-strong">
-          Made slowly<span className="text-sale">.</span> With love<span className="text-sale">.</span>
+          Made with love<span className="text-sale">.</span>
         </p>
         <p className="mx-auto mt-3 max-w-md text-ink">
-          Every page drawn by hand. Every book packed with care.
+          Packed with care.
         </p>
       </div>
       <div className="border-t-2 border-ink-strong bg-lavender-2">
@@ -17,7 +17,7 @@ export function Footer() {
           <div>
             <div className="text-xl font-extrabold text-ink-strong">Cozy Colouring</div>
             <p className="mt-3 text-sm text-ink">
-              Hand-drawn coloring books to bring calm, warmth, and creativity into your day.
+              Original colouring books to bring calm, warmth, and creativity into your day.
             </p>
           </div>
           <div>

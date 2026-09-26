@@ -75,7 +75,7 @@ export default async function BookPage({ params }: { params: Promise<{ collectio
             </div>
 
             <p className="mt-6 text-lg text-ink">
-              Unique {b.title} pages ready for you. Bold, thick outlines. Original artwork drawn from scratch. Made for slow, stress-free coloring.
+              Unique {b.title} pages ready for you. Bold, thick outlines. Original artwork drawn from scratch. Made for slow, stress-free colouring.
             </p>
 
             <ul className="mt-6 space-y-2 text-ink">

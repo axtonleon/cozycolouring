@@ -18,7 +18,7 @@ export function CollectionShowcase() {
             Pick your cozy corner
           </h2>
           <p className="mt-3 max-w-xl text-lg text-ink">
-            Three collections, one calm afternoon. Every book is drawn by hand.
+            Three collections, one calm afternoon. Every book is made specially.
           </p>
         </div>
         <Link href="/collections" className="text-sm font-bold text-ink-strong underline underline-offset-4">

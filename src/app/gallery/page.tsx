@@ -14,7 +14,7 @@ export default function GalleryPage() {
             Every page. All in one place.
           </h1>
           <p className="mx-auto mt-4 max-w-xl text-lg text-ink">
-            Browse coloring pages from across the collections. Tap any page for a closer look.
+            Browse colouring pages from across the collections. Tap any page for a closer look.
           </p>
         </div>
       </section>
