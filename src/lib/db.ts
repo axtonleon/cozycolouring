@@ -34,8 +34,23 @@ export async function ensureSchema(): Promise<void> {
         updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
       )
     `;
+    await sql`ALTER TABLE orders ADD COLUMN IF NOT EXISTS delivery_country TEXT NOT NULL DEFAULT ''`;
+    await sql`ALTER TABLE orders ADD COLUMN IF NOT EXISTS delivery_state TEXT NOT NULL DEFAULT ''`;
+    await sql`ALTER TABLE orders ADD COLUMN IF NOT EXISTS delivery_city TEXT NOT NULL DEFAULT ''`;
+    await sql`ALTER TABLE orders ADD COLUMN IF NOT EXISTS delivery_street TEXT NOT NULL DEFAULT ''`;
+    await sql`ALTER TABLE orders ADD COLUMN IF NOT EXISTS delivery_fee_kobo INTEGER NOT NULL DEFAULT 0`;
+    await sql`ALTER TABLE orders ADD COLUMN IF NOT EXISTS book_price_kobo INTEGER NOT NULL DEFAULT 0`;
     await sql`CREATE INDEX IF NOT EXISTS orders_status_idx ON orders(status)`;
     await sql`CREATE INDEX IF NOT EXISTS orders_created_idx ON orders(created_at DESC)`;
+    await sql`
+      CREATE TABLE IF NOT EXISTS delivery_rates (
+        country TEXT NOT NULL,
+        state TEXT NOT NULL,
+        fee_ngn INTEGER NOT NULL DEFAULT 0,
+        updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+        PRIMARY KEY (country, state)
+      )
+    `;
   })();
   return _initPromise;
 }

@@ -27,6 +27,12 @@ export interface Order {
   buyer_phone: string;
   buyer_email: string;
   delivery_address: string;
+  delivery_country: string;
+  delivery_state: string;
+  delivery_city: string;
+  delivery_street: string;
+  delivery_fee_kobo: number;
+  book_price_kobo: number;
   amount_kobo: number;
   status: OrderStatus;
   notes: string | null;
@@ -42,7 +48,13 @@ export interface CreateOrderInput {
   buyerName: string;
   buyerPhone: string;
   buyerEmail: string;
+  deliveryStreet: string;
+  deliveryCity: string;
+  deliveryState: string;
+  deliveryCountry: string;
   deliveryAddress: string;
+  bookPriceKobo: number;
+  deliveryFeeKobo: number;
   amountKobo: number;
 }
 
@@ -52,10 +64,14 @@ export async function createOrder(input: CreateOrderInput): Promise<Order> {
   const rows = (await sql`
     INSERT INTO orders (
       reference, book_id, book_title, book_collection,
-      buyer_name, buyer_phone, buyer_email, delivery_address, amount_kobo
+      buyer_name, buyer_phone, buyer_email,
+      delivery_address, delivery_country, delivery_state, delivery_city, delivery_street,
+      book_price_kobo, delivery_fee_kobo, amount_kobo
     ) VALUES (
       ${input.reference}, ${input.bookId}, ${input.bookTitle}, ${input.bookCollection},
-      ${input.buyerName}, ${input.buyerPhone}, ${input.buyerEmail}, ${input.deliveryAddress}, ${input.amountKobo}
+      ${input.buyerName}, ${input.buyerPhone}, ${input.buyerEmail},
+      ${input.deliveryAddress}, ${input.deliveryCountry}, ${input.deliveryState}, ${input.deliveryCity}, ${input.deliveryStreet},
+      ${input.bookPriceKobo}, ${input.deliveryFeeKobo}, ${input.amountKobo}
     )
     RETURNING *
   `) as unknown as Order[];

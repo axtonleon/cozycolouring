@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
 import { ORDER_STATUSES, type Order, type OrderStatus } from "@/lib/orders";
@@ -108,6 +109,12 @@ export function AdminOrders({ initialOrders }: { initialOrders: Order[] }) {
                 Table
               </ViewToggle>
             </div>
+            <Link
+              href="/admin/delivery-rates"
+              className="rounded-pill border-2 border-ink-strong bg-white px-4 py-2 text-sm font-bold"
+            >
+              Delivery rates
+            </Link>
             <button
               onClick={logout}
               className="rounded-pill border-2 border-ink-strong bg-white px-4 py-2 text-sm font-bold"
@@ -193,8 +200,25 @@ function CardsView({
             </div>
             <div>
               <p className="font-bold text-ink-strong">Delivery</p>
-              <p className="text-ink whitespace-pre-wrap">{o.delivery_address}</p>
+              {o.delivery_street ? (
+                <div className="text-ink">
+                  <div>{o.delivery_street}</div>
+                  <div>
+                    {o.delivery_city}
+                    {o.delivery_state && `, ${o.delivery_state}`}
+                  </div>
+                  <div>{o.delivery_country}</div>
+                </div>
+              ) : (
+                <p className="text-ink whitespace-pre-wrap">{o.delivery_address}</p>
+              )}
             </div>
+          </div>
+
+          <div className="mt-3 grid gap-1 rounded-lg border-2 border-dashed border-ink-strong/30 bg-bg-alt px-3 py-2 text-xs text-ink md:grid-cols-3">
+            <span>Book: <strong>{formatNaira(o.book_price_kobo / 100 || o.amount_kobo / 100)}</strong></span>
+            <span>Delivery: <strong>{o.delivery_fee_kobo > 0 ? formatNaira(o.delivery_fee_kobo / 100) : "Free"}</strong></span>
+            <span>Total paid: <strong>{formatNaira(o.amount_kobo / 100)}</strong></span>
           </div>
 
           <div className="mt-4 flex flex-wrap items-center gap-2 border-t-2 border-dashed border-ink-strong/20 pt-4">
@@ -228,7 +252,7 @@ function TableView({
 }) {
   return (
     <div className="overflow-x-auto rounded-2xl border-2 border-ink-strong bg-white shadow-card">
-      <table className="w-full min-w-[1100px] border-collapse text-sm">
+      <table className="w-full min-w-[1500px] border-collapse text-sm">
         <thead className="bg-lavender text-ink-strong">
           <tr>
             <Th>Date</Th>
@@ -236,8 +260,13 @@ function TableView({
             <Th>Buyer</Th>
             <Th>Phone</Th>
             <Th>Email</Th>
-            <Th>Delivery address</Th>
-            <Th>Amount</Th>
+            <Th>Street</Th>
+            <Th>City</Th>
+            <Th>State</Th>
+            <Th>Country</Th>
+            <Th>Book</Th>
+            <Th>Delivery fee</Th>
+            <Th>Total</Th>
             <Th>Status</Th>
             <Th>Reference</Th>
             <Th>Change status</Th>
@@ -262,7 +291,12 @@ function TableView({
                   {o.buyer_email}
                 </a>
               </Td>
-              <Td className="max-w-xs whitespace-pre-wrap">{o.delivery_address}</Td>
+              <Td className="max-w-xs whitespace-pre-wrap">{o.delivery_street || o.delivery_address}</Td>
+              <Td>{o.delivery_city}</Td>
+              <Td>{o.delivery_state}</Td>
+              <Td>{o.delivery_country}</Td>
+              <Td>{formatNaira((o.book_price_kobo || o.amount_kobo) / 100)}</Td>
+              <Td>{o.delivery_fee_kobo > 0 ? formatNaira(o.delivery_fee_kobo / 100) : "Free"}</Td>
               <Td className="font-bold">{formatNaira(o.amount_kobo / 100)}</Td>
               <Td>
                 <span
@@ -359,8 +393,13 @@ function ordersToCsv(orders: Order[]): string {
     "Buyer name",
     "Phone",
     "Email",
-    "Delivery address",
-    "Amount (NGN)",
+    "Street",
+    "City",
+    "State",
+    "Country",
+    "Book price (NGN)",
+    "Delivery fee (NGN)",
+    "Total (NGN)",
     "Status",
     "Reference",
   ];
@@ -371,7 +410,12 @@ function ordersToCsv(orders: Order[]): string {
     o.buyer_name,
     o.buyer_phone,
     o.buyer_email,
-    o.delivery_address,
+    o.delivery_street || o.delivery_address,
+    o.delivery_city,
+    o.delivery_state,
+    o.delivery_country,
+    ((o.book_price_kobo || o.amount_kobo) / 100).toString(),
+    (o.delivery_fee_kobo / 100).toString(),
     (o.amount_kobo / 100).toString(),
     STATUS_LABELS[o.status],
     o.reference,
